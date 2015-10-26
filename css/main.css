@@ -1,0 +1,138 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	color: #40e0d0;
+	font-size: 4em;
+	font-weight: bold;
+    font-family: 'Amaranth', sans-serif;
+    text-shadow: 0px 3px 0px #ea7e5d;
+
+}
+
+h2 {
+	line-height: 1.3em;
+}
+h3 {
+	color: #40e0d0;
+	font-size: 2em;
+}
+
+a {
+  /* Typography Declrations */
+  font-weight: bold;
+  text-decoration: none;
+  color: #40e0d0;
+}
+
+a:hover {
+  /* Tyopography Declarations */
+  color: #ea7e5d;
+}
+
+.btn {
+	border-radius: 5px;
+	background-color: #ef923f;
+	display: inline-block;
+    font-size: 12pt;
+    color: white;
+    height: auto;
+    line-height: auto;
+    margin: 15px auto;
+    padding: 10px 15px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #40e0d0;
+  border-radius: 5px;
+}
+
+/* Header Styles */
+
+.header {
+    background-image: url('../images/cooking_BG.gif');
+    background-repeat: repeat;
+    padding: 5em;
+    border-bottom: solid .8em #40e0d0;
+}
+
+.header-image {
+	margin: 20px;
+	float: left;
+	width: 100px
+}
+
+/* main body styles */
+
+.instruction {
+	border: solid .2em;
+	border-color: #fce7d0;
+	border-radius: 5px;
+	background-color: white;
+	display: inline-block;
+    font-size: 12pt;
+    height: auto;
+    line-height: 1.5em;
+    margin: 15px auto;
+    padding: 15px 20px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+
+#add-items-box {
+	background-color: #40e0d0;
+	border: solid .2em;
+	border-radius: 5px;
+	border-color: #fce7d0;
+	color: #fff;
+    display: inline-block;
+    font-size: 12pt;
+    height: auto;
+    line-height: auto;
+    margin: 15px auto;
+    padding: 0 15px;
+    text-align: center;
+    width: 500px;
+}
+
+/* footer styles */
+.footer {
+  margin-top: 5em;
+  padding: 2em;
+  height: auto;
+  border-top:  solid .8em #40e0d0;
+  background-color: #fce7d0;
+}
+#footer-images{
+  display: inline-block;
+  border: solid .2em;
+  border-color: #ef923f;
+  background-color: white;
+  border-radius: 100%;
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  margin: 1em 1em 1em 1em;
+  }
+
+ @media screen and (max-width: 500px) {
+	h1{
+		font-size: 3em;
+		} 
+	p{
+		padding: 0 2em 0 2em;
+	}
+	#add-items-box {
+		width: 300px;
+	}
+	 .instruction {
+	 	width: 300px;
+	 }
+}
+
