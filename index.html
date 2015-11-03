@@ -3,28 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ryan's Shopping List</title>
-	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Asset|Amaranth:700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<section class="header">
 		<div>
-
 		</div>
 	</section>
+	<div>
 		<h1>Shopping List</h1>
-		<section class="instruction">
-		<h2>Heading to the grocery store? Make a shopping list.</h2>
-		<h3>How it works:</h3>
-		<p>Type the name of an item in the text box below and hit enter to add it to your list. Once an item has been added you can use the 'x' button next to the item in the list to remove it, or click the orange reset button below if you want to clear your entire list and start a new one.</p>
-		</section>
-		<div>
-			<a href="#" class="btn">Reset List</a>
+	<div>
+
+			<section class="instruction">
+				<h2>Heading to the grocery store? Make a shopping list.</h2>
+				<h3>How it works:</h3>
+				<p>Type the name of an item in the text box below and click the add to list button to add it to your list. Once an item has been added you can use the '&#x2713;' button to cross an item off your list or the 'x' button next to the item. Click the orange reset button below if you want to clear your entire list and start a new one.</p>
+	   <div id="add-items-box">
+    	<input type="text" id="add-item" placeholder=" add item..." autofocus>
+    		<button id="add-button">Add to list</button>
+      	</div>
+
+      	<ol id="list">
+      	  	<li>
+      	  		<button class="checkbox">&#x2713;</button>
+      	  		<span class="list"> Oranges </span>
+      	  		<button class="delete" id="remove-button">x</button>
+      	  	</li>
+      	</ol>
+  
+	</section>
+
+	   	<div>
+			<button name="startover" id="startover" class="btn">Reset List</button>
 		</div>
-	<div id="add-items-box">
-		<p>Type here to add an item</p>
-	</div>
 
 
 <footer class="footer">

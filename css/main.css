@@ -13,6 +13,7 @@ h1 {
 
 h2 {
 	line-height: 1.3em;
+	font-size: 1.5em;
 }
 h3 {
 	color: #40e0d0;
@@ -21,7 +22,7 @@ h3 {
 
 a {
   /* Typography Declrations */
-  font-weight: bold;
+  font-weight: none;
   text-decoration: none;
   color: #40e0d0;
 }
@@ -29,6 +30,39 @@ a {
 a:hover {
   /* Tyopography Declarations */
   color: #ea7e5d;
+}
+
+ol {
+  color: #40e0d0;
+  text-align: left;
+  margin-left: 1em;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  width: auto;
+}
+
+li {
+  padding-bottom: 1em;
+  padding-left: 1.2em;
+  color: black;
+  font-weight: bold;
+  font-family: auto;
+  font-size: .8em;
+}
+
+#add-button {
+   border-radius: 3px;
+   background-color: #ef923f;
+   display: inline-block;
+    font-size: 12pt;
+    color: white;
+    height: auto;
+    line-height: auto;
+    margin: 15px auto;
+    padding: 10px 15px;
+    text-align: center;
+    height: auto;
 }
 
 .btn {
@@ -89,10 +123,10 @@ a:hover {
 
 #add-items-box {
 	background-color: #40e0d0;
-	border: solid .2em;
+	border: none;
 	border-radius: 5px;
-	border-color: #fce7d0;
-	color: #fff;
+	border-color: #ef923f;
+	color: black;
     display: inline-block;
     font-size: 12pt;
     height: auto;
@@ -100,8 +134,39 @@ a:hover {
     margin: 15px auto;
     padding: 0 15px;
     text-align: center;
-    width: 500px;
+    width: 400px;
 }
+
+#list {
+  width: 250px;
+  margin: 1.2em;
+}
+
+.checkbox {
+  margin-right: .5em;
+  background-color:  #fce7d0;
+  border: solid #ef923f;
+  color: black;
+  padding-left: .6em;
+  padding-right: .6em;
+}
+
+.cross-out {
+  text-decoration: line-through;
+  color: #999;
+}
+
+#remove-button {
+  margin-left: .5em;
+  background-color:  #fce7d0;
+  border: solid .2em #ef923f;
+  color: black;
+  padding-left: .7em;
+  padding-right: .7em;
+
+}
+
+
 
 /* footer styles */
 .footer {
@@ -125,14 +190,43 @@ a:hover {
 	h1{
 		font-size: 3em;
 		} 
+
+	h2 {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
 	p{
 		padding: 0 2em 0 2em;
 	}
+
+	ol {
+		width: 250px;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 1.2em;
+    padding-top: 1em;
+	}
+
+  li {
+    text-align: auto;
+    padding: none;
+    margin: none;
+  }
+
+	.btn {
+		width: 150px;
+	}
 	#add-items-box {
-		width: 300px;
+		padding-top: 1em;
+		width: 250px;
 	}
 	 .instruction {
 	 	width: 300px;
 	 }
+   #footer-images {
+    display: none;
+   }
+
 }
 
