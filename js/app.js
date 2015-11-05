@@ -39,4 +39,12 @@ $(document).ready(function() {
 /*on click of a list item id cross-out action cross out item */
 	$(document).on('click', '.checkbox', crossOut);
 
+/* on enter key add item to list */
+$(document).on('keypress', "#add-item", function(key)  {
+		if (key.keyCode == 13) {	
+            addItem();
+        }  
+    });
+
+
 
